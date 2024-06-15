@@ -9,6 +9,7 @@ public class Main {
             System.out.println("[2] TABLAS DE MULTIPLICAR");
             System.out.println("[3] CALCULADORA");
             System.out.println("[4] NUMEROS PRIMOS");
+            System.out.println("[5] LISTA DE ESTUDIANTES Y SU CALIFICACION");
             System.out.println("[0] SALIR DEL PROGRAMA");
             System.out.println("SELECCIONA UNA OPCION:");
             opcion = Integer.parseInt(System.console().readLine());
@@ -33,7 +34,8 @@ public class Main {
                 }
                 break;
                 case 5:{
-
+                    Estudiante estudiante=new Estudiante();
+                    estudiante.lista();
                 }
                 break;
                 case 0:{
